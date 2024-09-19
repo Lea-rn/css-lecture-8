@@ -1,0 +1,89 @@
+
+body {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+header {
+    background-color: rgb(17, 17, 70);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.cover {
+    height: 600px;
+    width: 100%;
+}
+
+.back {
+    background-image: url(./images/im2.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    padding: 20px;
+    background-attachment: fixed;
+
+}
+
+.side {
+    height: 600px;
+    width: 30%;
+    outline: solid 1px;
+    background-color: orangered;
+}
+
+.container {
+    height: 600px;
+    width: 70%;
+
+
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.main {
+   height: 40%;
+    background-color: rgb(21, 21, 58);
+  padding: 20px;
+
+}
+
+
+.banner{
+    height: 20%;
+    background-color: rgb(126, 126, 28);
+   padding: 20px;
+  
+    
+}
+
+.pub{
+    background-color: red;
+    height: 20%;
+    /* padding: 20px; */
+    display: flex;
+}
+
+.pub-img {
+    height: 100%;
+    width: 30%;
+}
+
+.title {
+    width: 70%;
+}
+
+footer {
+
+    background-color: rgb(17, 17, 70);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

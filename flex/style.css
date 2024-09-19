@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+ 
+    
+
+}
+
+nav a  {
+    margin: 0px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.parent {
+    margin-top: 20px;
+    border: solid 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* height: 600px; */
+     /* justify-content: center;    */
+
+   
+
+
+}
+
+.parent h1 {
+    border: solid 2px red;
+    width: 20%;
+    text-align: center;
+    height: 30px;
+ 
+
+    
+}
+
+.parent-2{
+    border: solid 3px red;
+    margin-top: 20px;
+    display: flex;
+}
+
+.parent-2 h1 {
+    border: solid 2px red;
+    width: 20%;
+    text-align: center;
+    height: 30px;
+}
+.child{
+    flex-grow: 1;
+ 
+ 
+}
+
+
+
+/* justify-content: center; hedhi tfaxi al l'axe principal */
+
+/* align-items: center;  hedhi tfaxi al l'axe secondaire */
